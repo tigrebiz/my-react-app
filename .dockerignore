@@ -1,8 +1,9 @@
+# 下記はイメージビルドするときに不要なファイルやディレクトリ群
+# 現在存在していないファイルも記述されている（今後追加されるかもしれないファイルを記述しておいてもよい）
+
 node_modules
 npm-debug.log
 build
-.dockerignore
-Dockerfile
 
 # 開発環境関連
 .git
@@ -31,4 +32,31 @@ coverage
 README.md
 CHANGELOG.md
 CONTRIBUTING.md
-LICENSE 
+LICENSE
+
+# Docker関連
+docker-compose.yml
+docker-compose.*.yml
+.docker
+.dockerignore
+Dockerfile
+
+# キャッシュ関連
+.cache
+.npm
+.yarn
+.pnp.*
+
+# その他の一時ファイル
+*.log
+*.swp
+*.swo
+.eslintcache
+
+# テスト関連（既存のcoverageに追加）
+__tests__
+*.test.js
+*.spec.js
+
+# タイプスクリプト関連
+*.tsbuildinfo 
