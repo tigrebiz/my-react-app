@@ -40,6 +40,8 @@ docker-compose.*.yml
 .docker
 .dockerignore
 Dockerfile
+Dockerfile.*
+docker/
 
 # キャッシュ関連
 .cache
