@@ -1,3 +1,10 @@
+/*
+アプリケーションのエントリーポイント
+Reactアプリをroot要素にマウント
+StrictModeの設定
+グローバルなプロバイダーの設定場所
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -11,7 +18,7 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// アプリのパフォーマンス計測を開始したい場合は、結果をログ出力する関数を渡してください
+// (例: reportWebVitals(console.log))
+// または分析エンドポイントに送信します。詳細: https://bit.ly/CRA-vitals
 reportWebVitals();

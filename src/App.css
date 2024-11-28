@@ -1,3 +1,8 @@
+/*
+App.js専用のスタイル
+コンポーネント固有のスタイリング
+*/
+
 .App {
   text-align: center;
 }

@@ -1,3 +1,8 @@
+/*
+Appコンポーネントのテストファイル
+Jestとreact-testing-libraryを使用
+*/
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 

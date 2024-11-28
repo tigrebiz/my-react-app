@@ -1,3 +1,8 @@
+/*
+グローバルなスタイル定義
+リセットCSSやベースとなるスタイル
+*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
